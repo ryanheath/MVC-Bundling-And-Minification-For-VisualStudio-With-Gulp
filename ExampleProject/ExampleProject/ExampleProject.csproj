@@ -127,19 +127,19 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="static_b\js\jquery-9533cfded3.min.js" />
+    <Content Include="static_b\css\bootstrap-49344a1e81.min.css" />
+    <Content Include="static_b\js\bootstrap-d090f6b720.min.js" />
+    <Content Include="static_b\js\jquery-eda4c7597c.min.js" />
     <Content Include="Views\Shared\Bundles\jquery.js.bundle.cshtml" />
+    <Content Include="Views\Shared\Bundles\bootstrap.css.bundle.cshtml" />
+    <Content Include="Views\Shared\Bundles\bootstrap.js.bundle.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="gulpfile.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="bower.json" />
     <Content Include="package.json" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />

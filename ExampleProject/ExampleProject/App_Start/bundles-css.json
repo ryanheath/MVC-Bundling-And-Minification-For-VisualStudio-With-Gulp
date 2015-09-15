@@ -1,1 +1,10 @@
-{}
+﻿{
+    "bundles": {
+        "bootstrap.css": {
+            "sources": [
+                "./bower_components/bootstrap/dist/css/bootstrap.css",
+                "./Content/Site.css"
+            ]
+        }
+    }
+}

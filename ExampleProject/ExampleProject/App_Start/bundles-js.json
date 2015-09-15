@@ -6,6 +6,12 @@
                 "./bower_components/jquery.validate/dist/jquery.validate.js",
                 "./Scripts/jquery.validate.unobtrusive.js"
             ]
+        },
+        "bootstrap.js": {
+            "sources": [
+                "./bower_components/bootstrap/dist/js/bootstrap.js",
+                "./Scripts/respond.js"
+            ]
         }
     }
 }

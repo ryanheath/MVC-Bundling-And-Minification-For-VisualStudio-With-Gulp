@@ -1,0 +1,12 @@
+@{
+    var root = "";
+    if (ViewBag.BundlesUseAbsolutePath == true) {
+        root = HttpContext.Current.Request.Url.Scheme + "://" + HttpContext.Current.Request.Url.Authority;
+    }
+}
+@if (HttpContext.Current.IsDebuggingEnabled) {
+<script src="@root/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="@root/Scripts/respond.js"></script>
+} else {
+<script src="@root/static_b/js/bootstrap-d090f6b720.min.js"></script>
+}

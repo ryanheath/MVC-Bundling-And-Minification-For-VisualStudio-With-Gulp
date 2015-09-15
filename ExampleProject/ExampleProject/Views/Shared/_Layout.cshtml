@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
+    @Html.Partial("~/Views/Shared/Bundles/bootstrap.css.bundle.cshtml")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
@@ -36,7 +36,7 @@
     </div>
 
     @Html.Partial("~/Views/Shared/Bundles/jquery.js.bundle.cshtml")
-    @Scripts.Render("~/bundles/bootstrap")
+    @Html.Partial("~/Views/Shared/Bundles/bootstrap.js.bundle.cshtml")
     @RenderSection("scripts", required: false)
 </body>
 </html>

@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "name": "ExampleProject",
+    "devDependencies": {
+        "bower": "^1.3.12",
+        "gulp": "^3.8.10",
+        "gulp-bower": "^0.0.7",
+        "gulp-less": "^3.0.3",
+        "gulp-concat": "^2.6.0",
+        "gulp-uglify": "^1.2.0",
+        "gulp-minify-css": "^1.2.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-rev": "^6.0.0",
+        "del": "^1.2.1",
+        "fs": "^0.0.2"
+    }
+}

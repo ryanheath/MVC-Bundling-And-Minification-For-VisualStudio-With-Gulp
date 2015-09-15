@@ -4,3 +4,5 @@ bin/
 obj/
 *.user
 packages/
+bower_components/
+node_modules/

@@ -1,0 +1,13 @@
+@{
+    var root = "";
+    if (ViewBag.BundlesUseAbsolutePath == true) {
+        root = HttpContext.Current.Request.Url.Scheme + "://" + HttpContext.Current.Request.Url.Authority;
+    }
+}
+@if (HttpContext.Current.IsDebuggingEnabled) {
+<script src="@root/bower_components/jquery/dist/jquery.js"></script>
+<script src="@root/bower_components/jquery.validate/dist/jquery.validate.js"></script>
+<script src="@root/Scripts/jquery.validate.unobtrusive.js"></script>
+} else {
+<script src="@root/static_b/js/jquery-eda4c7597c.min.js"></script>
+}

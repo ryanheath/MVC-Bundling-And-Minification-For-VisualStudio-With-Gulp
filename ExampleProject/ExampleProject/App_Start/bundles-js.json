@@ -1,1 +1,11 @@
-{}
+﻿{
+    "bundles": {
+        "jquery.js": {
+            "sources": [
+                "./bower_components/jquery/dist/jquery.js",
+                "./bower_components/jquery.validate/dist/jquery.validate.js",
+                "./Scripts/jquery.validate.unobtrusive.js"
+            ]
+        }
+    }
+}

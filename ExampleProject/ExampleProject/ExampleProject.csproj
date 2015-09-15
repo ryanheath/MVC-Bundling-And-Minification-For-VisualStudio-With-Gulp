@@ -128,11 +128,13 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="static_b\css\bootstrap-49344a1e81.min.css" />
-    <Content Include="static_b\js\bootstrap-d090f6b720.min.js" />
+    <Content Include="static_b\js\bootstrap-54648d1687.min.js" />
     <Content Include="static_b\js\jquery-eda4c7597c.min.js" />
+    <Content Include="static_b\js\modernizr-9d550bd14f.min.js" />
     <Content Include="Views\Shared\Bundles\jquery.js.bundle.cshtml" />
     <Content Include="Views\Shared\Bundles\bootstrap.css.bundle.cshtml" />
     <Content Include="Views\Shared\Bundles\bootstrap.js.bundle.cshtml" />
+    <Content Include="Views\Shared\Bundles\modernizr.js.bundle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -144,9 +146,6 @@
     <Content Include="package.json" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

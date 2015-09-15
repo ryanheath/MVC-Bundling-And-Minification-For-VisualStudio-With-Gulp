@@ -10,7 +10,12 @@
         "bootstrap.js": {
             "sources": [
                 "./bower_components/bootstrap/dist/js/bootstrap.js",
-                "./Scripts/respond.js"
+                "./bower_components/respond/dest/respond.src.js"
+            ]
+        },
+        "modernizr.js": {
+            "sources": [
+                "./bower_components/modernizr/modernizr.js"
             ]
         }
     }

@@ -1,0 +1,12 @@
+{
+    "name": "ExampleProject",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "jquery": "^1.10.1",
+        "jquery.validate": "^1.11.1",
+        "bootstrap": "^3.3.5",
+        "modernizr": "^2.8.3",
+        "respond": "^1.4.2"
+    }
+}
